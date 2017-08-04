@@ -1,0 +1,871 @@
+html {
+  &.flavor-default {
+    ::-webkit-input-placeholder {
+      color: #b7e4f7 !important;
+    }
+    #header {
+      background: #4DBDEB url('./../images/music-1.png') !important;
+      background-size: 250px 250px !important;
+    }
+    #footer {
+      background-color: #4DBDEB !important;
+    }
+    #videosList {
+      #videosMenu {
+        border-color: #34bf49 !important;
+        li.active {
+          border-color: #34bf49 !important;
+        }
+      }
+      .videosArea {
+        .pageHead {
+          color: #00bce4 !important;
+          border-color: #00bce4 !important;
+        }
+      }
+    }
+    #chooseCountry {
+      border-color: #00bce4 !important;
+      span.chooseCountry {
+        background-color: #00a4e4 !important;
+        border-color: #2b82ad !important;
+      }
+    }
+    #countriesList {
+      border-color: #00bce4 !important;
+    }
+    #gotoTop {
+      border: 1px solid #4DBDEB !important;
+      span.fa {
+        color: #4DBDEB !important;
+      }
+    }
+  }
+  &.flavor-green {
+    ::-webkit-input-placeholder {
+      color: #c7f0cd !important;
+    }
+    #header {
+      background: #34bf49 url('./../images/music-1.png') !important;
+      background-size: 250px 250px !important;
+    }
+    .ui-autocomplete {
+      * {
+        color: #FFFFFF !important;
+      }
+      background: #34bf49 url('./../images/music-1.png')  -60px -6px;
+      background-size: 250px 250px;
+      border: 2px solid #2ca03d;
+    }
+    #search {
+      #search_in {
+        color: #FFFFFF;
+        border-color: #FFFFFF !important;
+      }
+      #search_go {
+        span {
+          color: #FFFFFF !important;
+        }
+      }
+    }
+    #load, .media-load {
+      .load-icon {
+        background-image: url('../images/loading-green.gif');
+      }
+      span {
+        color: #2ca03d !important;
+      }
+    }
+    #footer {
+      background-color: #34bf49 !important;
+    }
+    #videosList {
+      #videosMenu {
+        border-color: #34bf49 !important;
+        li.active {
+          background-color: #34bf49 !important;
+        }
+      }
+      .videosArea {
+        .pageHead {
+          color: #34bf49 !important;
+          border-color: #34bf49 !important;
+        }
+      }
+    }
+    .video {
+      .v-body {
+        .v-title {
+          color: #1b6226 !important;
+        }
+        .v-owner {
+          color: #12441a !important;
+        }
+      }
+      .v-foot {
+        ul.v-actions {
+          li {
+            color: #1b6226 !important;
+            background-color: #34bf49 !important;
+            border-color: #1b6226 !important;
+          }
+        }
+      }
+    }
+    #chooseCountry {
+      border-color: #34bf49 !important;
+      span.chooseCountry {
+        background-color: #34bf49 !important;
+        border-color: #279137 !important;
+      }
+    }
+    #countriesList {
+      border-color: #34bf49 !important;
+    }
+    #sharePage {
+      background-color: #34bf49 !important;
+      &:hover {
+        background-color: #3dca52 !important;
+      }
+      &:active {
+        background-color: #30b043 !important;
+      }
+    }
+    #loadMore span, input[type='submit'] {
+      color: #1b6226;
+      background-color: #34bf49;
+      border-color: #1b6226;
+      &:hover {
+        background-color: #30b043;
+        border-color: #1b6226;
+      }
+    }
+    #lsParent, #rsParent {
+      a {
+        &:hover {
+          background-color: #34bf49;
+        }
+      }
+    }
+    #gotoTop {
+      border: 1px solid #34bf49 !important;
+      span.fa {
+        color: #34bf49 !important;
+      }
+    }
+  }
+  &.flavor-red {
+    ::-webkit-input-placeholder {
+      color: #f5bcbb !important;
+    }
+    #header {
+      background: #cd201f url('./../images/music-1.png') !important;
+      background-size: 250px 250px !important;
+    }
+    .ui-autocomplete {
+      * {
+        color: #FFFFFF !important;
+      }
+      background: #cd201f url('./../images/music-1.png')  -60px -6px;
+      background-size: 250px 250px;
+      border: 2px solid #891515;
+    }
+    #search {
+      #search_in {
+        color: #FFFFFF;
+        border-color: #FFFFFF !important;
+      }
+      #search_go {
+        span {
+          color: #FFFFFF !important;
+        }
+      }
+    }
+    #load, .media-load {
+      .load-icon {
+        background-image: url('../images/loading-red.gif');
+      }
+      span {
+        color: #891515 !important;
+      }
+    }
+    #footer {
+      background-color: #cd201f !important;
+    }
+    #videosList {
+      #videosMenu {
+        border-color: #cd201f !important;
+        li.active {
+          background-color: #cd201f !important;
+        }
+      }
+      .videosArea {
+        .pageHead {
+          color: #cd201f !important;
+          border-color: #cd201f !important;
+        }
+      }
+    }
+    .video {
+      .v-body {
+        .v-title {
+          color: #891515 !important;
+        }
+        .v-owner {
+          color: #781312 !important;
+        }
+      }
+      .v-foot {
+        ul.v-actions {
+          li {
+            color: #560d0d !important;
+            background-color: #de2322 !important;
+            border-color: #781312 !important;
+          }
+        }
+      }
+    }
+    #chooseCountry {
+      border-color: #de2322 !important;
+      span.chooseCountry {
+        background-color: #cd201f !important;
+        border-color: #9a1817 !important;
+      }
+    }
+    #countriesList {
+      border-color: #de2322 !important;
+    }
+    #sharePage {
+      background-color: #e74c3c !important;
+      &:hover {
+        background-color: #eb6c5f !important;
+      }
+      &:active {
+        background-color: #e53c2b !important;
+      }
+      * {
+        color: #fadedd;
+      }
+    }
+    #loadMore span, input[type='submit'] {
+      color: #560d0d;
+      background-color: #e34544;
+      border-color: #781312;
+      &:hover {
+        background-color: #de2322;
+        border-color: #781312;
+      }
+    }
+    #lsParent, #rsParent {
+      a {
+        &:hover {
+          background-color: #e74c3c;
+        }
+      }
+    }
+    #gotoTop {
+      border: 1px solid #e74c3c !important;
+      span.fa {
+        color: #e74c3c !important;
+      }
+    }
+  }
+  &.flavor-violet {
+    ::-webkit-input-placeholder {
+      color: #ede1f2 !important;
+    }
+    #header {
+      background: #9b59b6 url('./../images/music-1.png') !important;
+      background-size: 250px 250px !important;
+    }
+    .ui-autocomplete {
+      * {
+        color: #FFFFFF !important;
+      }
+      background: #9b59b6 url('./../images/music-1.png')  -60px -6px;
+      background-size: 250px 250px;
+      border: 2px solid #7b4193;
+    }
+    #search {
+      #search_in {
+        color: #FFFFFF;
+        border-color: #FFFFFF !important;
+      }
+      #search_go {
+        span {
+          color: #FFFFFF !important;
+        }
+      }
+    }
+    #load, .media-load {
+      .load-icon {
+        background-image: url('../images/loading-violet.gif');
+      }
+      span {
+        color: #9b59b6 !important;
+      }
+    }
+    #footer {
+      background-color: #9b59b6 !important;
+    }
+    #videosList {
+      #videosMenu {
+        border-color: #9b59b6 !important;
+        li.active {
+          background-color: #9b59b6 !important;
+        }
+      }
+      .videosArea {
+        .pageHead {
+          color: #9b59b6 !important;
+          border-color: #9b59b6 !important;
+        }
+      }
+    }
+    .video {
+      .v-body {
+        .v-title {
+          color: #7b4193 !important;
+        }
+        .v-owner {
+          color: #592f6a !important;
+        }
+      }
+      .v-foot {
+        ul.v-actions {
+          li {
+            color: #4e295d !important;
+            background-color: #9b59b6 !important;
+            border-color: #592f6a !important;
+          }
+        }
+      }
+    }
+    #chooseCountry {
+      border-color: #9b59b6 !important;
+      span.chooseCountry {
+        background-color: #924daf !important;
+        border-color: #703b86 !important;
+      }
+    }
+    #countriesList {
+      border-color: #9b59b6 !important;
+    }
+    #sharePage {
+      background-color: #9b59b6 !important;
+      &:hover {
+        background-color: #b482c8 !important;
+      }
+      &:active {
+        background-color: #8747a1 !important;
+      }
+      * {
+        color: #FFFFFF !important;
+      }
+    }
+    #loadMore span, input[type='submit'] {
+      color: #4e295d;
+      background-color: #a367bc;
+      border-color: #592f6a;
+      &:hover {
+        background-color: #9b59b6;
+        border-color: #4e295d;
+      }
+    }
+    #lsParent, #rsParent {
+      a {
+        &:hover {
+          background-color: #9b59b6;
+        }
+      }
+    }
+    #gotoTop {
+      border: 1px solid #9b59b6 !important;
+      span.fa {
+        color: #9b59b6 !important;
+      }
+    }
+  }
+  &.flavor-orange {
+    ::-webkit-input-placeholder {
+      color: #ffdcc4 !important;
+    }
+    #header {
+      * {
+        color: #FFFFFF !important;
+      }
+      background: #FF6600 url('./../images/music-1.png') !important;
+      background-size: 250px 250px !important;
+    }
+    .ui-autocomplete {
+      * {
+        color: #FFFFFF !important;
+      }
+      background: #FF6600 url('./../images/music-1.png')  -60px -6px;
+      background-size: 250px 250px;
+      border: 2px solid #c44e00;
+    }
+    #search {
+      #search_in {
+        color: #FFFFFF;
+        border-color: #c44e00 !important;
+      }
+      #search_go {
+        span {
+          color: #c44e00 !important;
+        }
+      }
+    }
+    #load, .media-load {
+      .load-icon {
+        background-image: url('../images/loading-orange.gif');
+      }
+      span {
+        color: #b14700 !important;
+      }
+    }
+    #footer {
+      background-color: #FF6600 !important;
+    }
+    #videosList {
+      #videosMenu {
+        border-color: #FF6600 !important;
+        li.active {
+          background-color: #FF6600 !important;
+        }
+      }
+      .videosArea {
+        .pageHead {
+          color: #FF6600 !important;
+          border-color: #FF6600 !important;
+        }
+      }
+    }
+    .video {
+      .v-body {
+        .v-title {
+          color: #d85600 !important;
+        }
+        .v-owner {
+          color: #b14700 !important;
+        }
+      }
+      .v-foot {
+        ul.v-actions {
+          li {
+            color: #893700 !important;
+            background-color: #FF6600 !important;
+            border-color: #b14700 !important;
+          }
+        }
+      }
+    }
+    #chooseCountry {
+      border-color: #FF6600 !important;
+      span.chooseCountry {
+        background-color: #d85600 !important;
+        border-color: #b14700 !important;
+      }
+    }
+    #countriesList {
+      border-color: #FF6600 !important;
+    }
+    #sharePage {
+      background-color: #FF6600 !important;
+      &:hover {
+        background-color: #ff7214 !important;
+      }
+      &:active {
+        background-color: #eb5e00 !important;
+      }
+      * {
+        color: #FFFFFF !important;
+      }
+    }
+    #loadMore span, input[type='submit'] {
+      color: #b14700;
+      background-color: #ff7214;
+      border-color: #d85600;
+      &:hover {
+        background-color: #FF6600;
+        border-color: #b14700;
+      }
+    }
+    #lsParent, #rsParent {
+      a {
+        &:hover {
+          background-color: #FF6600;
+        }
+      }
+    }
+    #gotoTop {
+      border: 1px solid #FF6600 !important;
+      span.fa {
+        color: #FF6600 !important;
+      }
+    }
+  }
+  &.flavor-dark {
+    ::-webkit-input-placeholder {
+      color: #aaa !important;
+    }
+    #header {
+      * {
+        color: #f4f4f4 !important;
+      }
+      background: #6a737b url('./../images/music-1.png') !important;
+      background-size: 250px 250px !important;
+    }
+    .ui-autocomplete {
+      * {
+        color: #f4f4f4 !important;
+      }
+      background: #6a737b url('./../images/music-1.png')  -60px -6px;
+      background-size: 250px 250px;
+      border: 2px solid #222;
+    }
+    #search {
+      #search_in {
+        color: #6a737b;
+        border-color: #eee !important;
+      }
+      #search_go {
+        span {
+          color: #f4f4f4 !important;
+        }
+      }
+    }
+    #load, .media-load {
+      .load-icon {
+        background-image: url('../images/loading-dark.gif');
+      }
+      span {
+        color: #4f555b !important;
+      }
+    }
+    #footer {
+      background-color: #6a737b !important;
+      * {
+        color: #f4f4f4 !important;
+      }
+    }
+    #videosList {
+      #videosMenu {
+        border-color: #6a737b !important;
+        li.active {
+          background-color: #6a737b !important;
+        }
+      }
+      .videosArea {
+        .pageHead {
+          color: #6a737b !important;
+          border-color: #6a737b !important;
+        }
+      }
+    }
+    .video {
+      .v-body {
+        .v-title {
+          color: #464c51 !important;
+        }
+        .v-owner {
+          color: #34383c !important;
+        }
+      }
+      .v-foot {
+        ul.v-actions {
+          li {
+            color: #111 !important;
+            background-color: #6a737b !important;
+            border-color: #34383c !important;
+          }
+        }
+      }
+    }
+    #chooseCountry {
+      border-color: #6a737b !important;
+      span.chooseCountry {
+        background-color: #737d86 !important;
+        border-color: #4f555b !important;
+      }
+    }
+    #countriesList {
+      border-color: #6a737b !important;
+    }
+    #sharePage {
+      background-color: #6a737b !important;
+      &:hover {
+        background-color: #7d878f !important;
+      }
+      &:active {
+        background-color: #585f66 !important;
+      }
+      * {
+        color: #f4f4f4 !important;
+      }
+    }
+    #loadMore span, input[type='submit'] {
+      color: #4f555b;
+      background-color: #aaa;
+      border-color: #6a737b;
+      &:hover {
+        background-color: #999;
+        border-color: #4f555b;
+      }
+    }
+    #lsParent, #rsParent {
+      a {
+        &:hover {
+          background-color: #6a737b;
+        }
+      }
+    }
+    #gotoTop {
+      border: 1px solid #6a737b !important;
+      span.fa {
+        color: #6a737b !important;
+      }
+    }
+  }
+  &.flavor-yellow {
+    ::-webkit-input-placeholder {
+      color: #c4a700 !important;
+    }
+    #header {
+      * {
+        color: #897500 !important;
+      }
+      background: #ffd900 url('./../images/music-1.png') !important;
+      background-size: 250px 250px !important;
+    }
+    .ui-autocomplete {
+      * {
+        color: #897500 !important;
+      }
+      background: #ffd900 url('./../images/music-1.png')  -60px -6px;
+      background-size: 250px 250px;
+      border: 2px solid #c4a700;
+    }
+    #search {
+      #search_in {
+        color: #897500;
+        border-color: #c4a700 !important;
+      }
+      #search_go {
+        span {
+          color: #c4a700 !important;
+        }
+      }
+    }
+    #load, .media-load {
+      .load-icon {
+        background-image: url('../images/loading-yellow.gif');
+      }
+      span {
+        color: #897500 !important;
+      }
+    }
+    #footer {
+      background-color: #ffd900 !important;
+      * {
+        color: #766400 !important;
+      }
+    }
+    #videosList {
+      #videosMenu {
+        border-color: #ffd900 !important;
+        li.active {
+          color: #897500;
+          background-color: #ffd900 !important;
+        }
+      }
+      .videosArea {
+        .pageHead {
+          color: #ffd900 !important;
+          border-color: #ffd900 !important;
+        }
+      }
+    }
+    .video {
+      .v-body {
+        .v-title {
+          color: #9d8600 !important;
+        }
+        .v-owner {
+          color: #897500 !important;
+        }
+      }
+      .v-foot {
+        ul.v-actions {
+          li {
+            color: #897500 !important;
+            background-color: #d8b800 !important;
+            border-color: #b19600 !important;
+          }
+        }
+      }
+    }
+    #chooseCountry {
+      border-color: #ffd900 !important;
+      span.chooseCountry {
+        background-color: #b19600 !important;
+        border-color: #9d8600 !important;
+      }
+    }
+    #countriesList {
+      border-color: #ffd900 !important;
+    }
+    #sharePage {
+      background-color: #ffd900 !important;
+      &:hover {
+        background-color: #ffdc14 !important;
+      }
+      &:active {
+        background-color: #ebc800 !important;
+      }
+      * {
+        color: #897500;
+      }
+    }
+    #loadMore span, input[type='submit'] {
+      color: #897500;
+      background-color: #ffd900;
+      border-color: #b19600;
+      &:hover {
+        background-color: #ebc800;
+        border-color: #897500;
+      }
+    }
+    #lsParent, #rsParent {
+      a {
+        &:hover {
+          background-color: #b19600;
+        }
+      }
+    }
+    #gotoTop {
+      border: 1px solid #b19600 !important;
+      span.fa {
+        color: #b19600 !important;
+      }
+    }
+  }
+  &.flavor-smoke {
+    ::-webkit-input-placeholder {
+      color: #999 !important;
+    }
+    #header {
+      * {
+        color: #6a737b !important;
+      }
+      background: #eee url('./../images/music-1.png') !important;
+      background-size: 250px 250px !important;
+    }
+    .ui-autocomplete {
+      * {
+        color: #4f555b !important;
+      }
+      background: #eee url('./../images/music-1.png')  -60px -6px;
+      background-size: 250px 250px;
+      border: 2px solid #6a737b;
+    }
+    #search {
+      #search_in {
+        color: #6a737b;
+        border-color: #737d86 !important;
+      }
+    }
+    #load, .media-load {
+      .load-icon {
+        background-image: url('../images/loading-smoke.gif');
+      }
+      span {
+        color: #4f555b !important;
+      }
+    }
+    #footer {
+      * {
+        color: #6a737b !important;
+      }
+      background-color: #eee !important;
+    }
+    #videosList {
+      #videosMenu {
+        border-color: #ddd !important;
+        li.active {
+          color: #6a737b;
+          background-color: #ddd !important;
+        }
+      }
+      .videosArea {
+        .pageHead {
+          color: #6a737b !important;
+          border-color: #ddd !important;
+        }
+      }
+    }
+    .video {
+      .v-body {
+        .v-title {
+          color: #6a737b !important;
+        }
+        .v-owner {
+          color: #4f555b !important;
+        }
+      }
+      .v-foot {
+        ul.v-actions {
+          li {
+            color: #4f555b !important;
+            background-color: #ddd !important;
+            border-color: #6a737b !important;
+          }
+        }
+      }
+    }
+    #chooseCountry {
+      border-color: #ddd !important;
+      span.chooseCountry {
+        background-color: #6a737b !important;
+        border-color: #4f555b !important;
+      }
+    }
+    #countriesList {
+      border-color: #ddd !important;
+    }
+    #sharePage {
+      * {
+        color: #6a737b !important;
+      }
+      background-color: #ddd !important;
+      &:hover {
+        background-color: #eee !important;
+      }
+      &:active {
+        background-color: #aaa !important;
+      }
+    }
+    #loadMore span, input[type='submit'] {
+      color: #4f555b;
+      background-color: #ddd;
+      border-color: #6a737b;
+      &:hover {
+        background-color: #ccc;
+        border-color: #4f555b;
+      }
+    }
+    #lsParent, #rsParent {
+      a {
+        &:hover {
+          background-color: #6a737b;
+        }
+      }
+    }
+    #gotoTop {
+      border: 1px solid #6a737b !important;
+      span.fa {
+        color: #6a737b !important;
+      }
+    }
+  }
+}
